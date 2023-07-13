@@ -60,17 +60,20 @@ color: #fff;
 .content h1 span{
     color: #0bdd74;
 }
-.button{
+.btn{
 position: relative;
 left: 332px;
-background: black;
+background: rgb(32, 188, 209);
 padding: 4px 6px;
 }
-.button :hover{
-    color: white;
+.btn a {
+    color: #a10606;
+}
+.btn :hover{
+    color: black;
     font-weight: 500;
 }
-.button content {
+.btn content {
     position: relative;
     background: transparent;
     border: 2px solid white;
@@ -82,7 +85,7 @@ padding: 4px 6px;
     margin-top: 30px;
     cursor: pointer;
 }
-.content button img{
+.content .btn img{
     width: 15px;
     margin-left: 10px;
 }
@@ -169,7 +172,7 @@ padding: 4px 6px;
     left: 32px;
     top: -26px;
 
-}.button{
+}.btn{
     position: relative;
     left: 176px;
     padding: 4px 6px;

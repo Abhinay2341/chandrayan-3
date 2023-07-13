@@ -63,7 +63,12 @@ color: #fff;
 .button{
 position: relative;
 left: 332px;
+background: black;
 padding: 4px 6px;
+}
+.button :hover{
+    color: white;
+    font-weight: 500;
 }
 .button content {
     position: relative;
@@ -76,16 +81,6 @@ padding: 4px 6px;
     align-items: center;
     margin-top: 30px;
     cursor: pointer;
-}
-.button content a{
-    /* display: flex;
-    bottom:10px;
-    left: 500px; */
-    color: white;
-}
-.content button a :hover{
-    color: darkblue;
-    font-weight: blue;
 }
 .content button img{
     width: 15px;
@@ -145,6 +140,40 @@ padding: 4px 6px;
 }
 
 
+@media screen and (max-width :600px){
+    #quote{position: relative;
+        font-size:1.1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+        /* bottom: 10px; */
+        left: 114px;
+    
+    }
+    .content p{
+        top: -18px;
+        font-size: 50px;
+        font-weight: bold;
+        color: rgb(255, 225, 127);
+    }
+    .content h1{
+        position: relative;
+        top:-18px ;
+        left: 90px;
+        font-size:45px;
+        font-weight:600;
+    }
+        
+    .launch-time {
+     position: relative;
+     display: flex;
+    left: 32px;
+    top: -26px;
+
+}.button{
+    position: relative;
+    left: 176px;
+    padding: 4px 6px;
+    }
 
 
-
+}

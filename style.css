@@ -178,6 +178,8 @@ padding: 4px 6px;
     left: 118px;
     padding: 4px 6px;
     }
-
+.bottom div{
+        height: 20px;
+    }
 
 }

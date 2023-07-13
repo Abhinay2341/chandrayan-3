@@ -1,0 +1,179 @@
+  @import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Playfair+Display&family=Poppins:ital,wght@0,700;1,200&family=Roboto&family=Roboto+Slab:wght@200;400&family=Ubuntu:ital,wght@0,300;0,400;1,300&family=Varela+Round&family=Wix+Madefor+Display:wght@500;700&display=swap');
+
+
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'poppins', sans-serif;
+box-sizing: border-box;
+overflow: hidden;
+}
+.logo{
+position: relative;
+top: -296px;
+left: -670px;
+width: 80px;
+padding: 20px 0;
+cursor: pointer;
+}
+#quote{position: relative;
+    font-size:2.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    /* bottom: 10px; */
+    left: 150px;
+
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 105vw;
+height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url(images/backgroung.jpeg) ;
+background-position: center;
+background-size: cover;
+padding: 08%;
+position: relative;
+}
+
+.content{
+top:50%;
+position: absolute;
+transform: translateY(-50%);
+color: #fff;
+}
+.content h1{
+    position: relative;
+    top:-18px ;
+    left: 192px;
+    font-size: 64px;
+    font-weight:600;
+}
+.content p{
+    top: -18px;
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(255, 225, 127);
+}
+.content h1 span{
+    color: #0bdd74;
+}
+.button{
+position: relative;
+left: 332px;
+background: black;
+padding: 4px 6px;
+}
+.button :hover{
+    color: white;
+    font-weight: 500;
+}
+.button content {
+    position: relative;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.content button img{
+    width: 15px;
+    margin-left: 10px;
+}
+
+.launch-time{
+    position: relative;
+    display: flex;
+    left: 220px;
+    top: -18px;
+
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height:50px;
+    position: relative;
+    bottom:50px;
+    color: white;
+}
+.bottom div{
+    height: 20px;
+}
+
+.rocket{
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    animation: rocket 4s linear infinite;
+}
+
+@keyframes rocket{
+ 0%{
+    bottom: 0;
+    opacity: 0;
+
+ }
+ 100%{
+    bottom: 105%;
+    opacity: 1;
+    
+ }
+
+}
+
+
+@media screen and (max-width :600px){
+    #quote{position: relative;
+        font-size:1.1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+        /* bottom: 10px; */
+        left: 114px;
+    
+    }
+    .content p{
+        top: -18px;
+        font-size: 50px;
+        font-weight: bold;
+        color: rgb(255, 225, 127);
+    }
+    .content h1{
+        position: relative;
+        top:-18px ;
+        left: 90px;
+        font-size:45px;
+        font-weight:600;
+    }
+        
+    .launch-time {
+     position: relative;
+     display: flex;
+    left: 32px;
+    top: -26px;
+
+}.button{
+    position: relative;
+    left: 176px;
+    padding: 4px 6px;
+    }
+
+
+}

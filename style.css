@@ -52,6 +52,7 @@ color: #fff;
     font-weight:600;
 }
 .content p{
+    position: relative;
     top: -18px;
     font-size: 100px;
     font-weight: bold;
@@ -145,36 +146,36 @@ padding: 4px 6px;
 
 @media screen and (max-width :600px){
     #quote{position: relative;
-        font-size:1.1rem;
+        font-size:1.3rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 600;
-        /* bottom: 10px; */
-        left: 114px;
+        top: -3px;
+        left: 52px;
     
     }
     .content p{
         top: -18px;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: bold;
         color: rgb(255, 225, 127);
     }
     .content h1{
         position: relative;
-        top:-18px ;
-        left: 90px;
-        font-size:45px;
+        top:-26px ;
+        left: 94px;
+        font-size:25px;
         font-weight:600;
     }
         
     .launch-time {
      position: relative;
      display: flex;
-    left: 32px;
+    left: 8px;
     top: -26px;
 
 }.btn{
     position: relative;
-    left: 176px;
+    left: 118px;
     padding: 4px 6px;
     }
 

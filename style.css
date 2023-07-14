@@ -29,7 +29,7 @@ cursor: pointer;
 display: flex;
 justify-content: center;
 align-items: center;
-width: 105vw;
+width: 108vw;
 height: 100vh;
 background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url(images/backgroung.jpeg) ;
 background-position: center;
@@ -46,13 +46,14 @@ color: #fff;
 }
 .content h1{
     position: relative;
-    top:-18px ;
-    left: 192px;
+    top:-33px ;
+    left: 146px;
     font-size: 64px;
     font-weight:600;
 }
 .content p{
     position: relative;
+    left: -5px;
     top: -18px;
     font-size: 100px;
     font-weight: bold;
@@ -63,7 +64,7 @@ color: #fff;
 }
 .btn{
 position: relative;
-left: 332px;
+left: 360px;
 background: rgb(32, 188, 209);
 padding: 4px 6px;
 }
@@ -74,6 +75,7 @@ padding: 4px 6px;
     color: black;
     font-weight: 500;
 }
+
 .btn content {
     position: relative;
     background: transparent;
@@ -94,7 +96,7 @@ padding: 4px 6px;
 .launch-time{
     position: relative;
     display: flex;
-    left: 220px;
+    left: 156px;
     top: -18px;
 
 }
@@ -102,8 +104,8 @@ padding: 4px 6px;
     flex-basis: 100px;
 }
 .launch-time div p{
-    font-size: 60px;
-    margin-bottom: -14px;
+    font-size: 65px;
+    margin-bottom: -26px;
 }
 
 .bottom {
@@ -142,6 +144,12 @@ padding: 4px 6px;
  }
 
 }
+#fireworksCanvas{
+    /* position: relative; */
+    left: 24px;
+    width: 120vw;
+    /* opacity: 0.4; */
+}
 
 
 @media screen and (max-width :600px){
@@ -149,20 +157,26 @@ padding: 4px 6px;
         font-size:1.3rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 600;
-        top: -3px;
-        left: 52px;
+        top: -5px;
+        left: 11px;
     
+    }
+    #fireworksCanvas{
+        /* position: relative; */
+        height: 42vh;
+        width: 735vw;
+        /* opacity: 0.4; */
     }
     .content p{
         top: -18px;
-        font-size: 40px;
+        font-size: 25px;
         font-weight: bold;
         color: rgb(255, 225, 127);
     }
     .content h1{
         position: relative;
         top:-26px ;
-        left: 94px;
+        left: 50px;
         font-size:25px;
         font-weight:600;
     }
@@ -175,11 +189,12 @@ padding: 4px 6px;
 
 }.btn{
     position: relative;
-    left: 118px;
+    left: 88px;
     padding: 4px 6px;
-    }
-.bottom div{
-        height: 20px;
+}
+    .bottom div{
+        position: relative;
+        top: -6px;
     }
 
 }

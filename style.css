@@ -152,7 +152,7 @@ padding: 4px 6px;
 }
 
 
-@media screen and (max-width :600px){
+@media screen and (max-width :550px){
     #quote{position: relative;
         font-size:1.3rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
